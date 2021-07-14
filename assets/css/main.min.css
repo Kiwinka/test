@@ -172,36 +172,26 @@ img {
 
 .container {
     width: 100%
-} #externalinjectionapp
-
-@media (min-width: 640px) {
+} @media (min-width: 640px) {
     .container {
         max-width: 640px
     } #externalinjectionapp
-} #externalinjectionapp
-
-@media (min-width: 768px) {
+} @media (min-width: 768px) {
     .container {
         max-width: 768px
     } #externalinjectionapp
-} #externalinjectionapp
-
-@media (min-width: 1024px) {
+} @media (min-width: 1024px) {
     .container {
         max-width: 1024px
     } #externalinjectionapp
-} #externalinjectionapp
-
-@media (min-width: 1280px) {
+} @media (min-width: 1280px) {
     .container {
         max-width: 1280px
     } #externalinjectionapp
-} #externalinjectionapp
-
-@media (min-width: 1440px) {
+} @media (min-width: 1440px) {
     .container {
         max-width: 1440px
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .bg-white {
@@ -475,18 +465,14 @@ img {
 
 html {
     font-size: 13px
-} #externalinjectionapp
-
-@media screen and (min-width: 320px) {
+} @media screen and (min-width: 320px) {
     html {
         font-size: calc(13px + 5 * ((100vw - 320px) / 1120))
     } #externalinjectionapp
-} #externalinjectionapp
-
-@media screen and (min-width: 1440px) {
+} @media screen and (min-width: 1440px) {
     html {
         font-size: 18px
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 /*!
@@ -510,30 +496,22 @@ html {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto
-} #externalinjectionapp
-
-@media (min-width: 640px) {
+} @media (min-width: 640px) {
     .container {
         max-width: 600px
     } #externalinjectionapp
-} #externalinjectionapp
-
-@media (min-width: 768px) {
+} @media (min-width: 768px) {
     .container {
         max-width: 720px
     } #externalinjectionapp
-} #externalinjectionapp
-
-@media (min-width: 1024px) {
+} @media (min-width: 1024px) {
     .container {
         max-width: 980px
     } #externalinjectionapp
-} #externalinjectionapp
-
-@media (min-width: 1280px) {
+} @media (min-width: 1280px) {
     .container {
         max-width: 1200px
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .row {
@@ -550,22 +528,18 @@ html {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px
-} #externalinjectionapp
-
-@media (min-width: 640px) {
+} @media (min-width: 640px) {
     .col-sm-6 {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%
     } #externalinjectionapp
-} #externalinjectionapp
-
-@media (min-width: 768px) {
+} @media (min-width: 768px) {
     .col-md-4 {
         -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
         max-width: 33.333333%
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .cc-window {
@@ -824,21 +798,15 @@ html {
 
 .cc-btn + .cc-btn {
     margin-left: .5em
-} #externalinjectionapp
-
-@media print {
+} @media print {
     .cc-revoke, .cc-window {
         display: none
     } #externalinjectionapp
-} #externalinjectionapp
-
-@media screen and (max-width: 900px) {
+} @media screen and (max-width: 900px) {
     .cc-btn {
         white-space: normal
     } #externalinjectionapp
-} #externalinjectionapp
-
-@media screen and (max-width: 414px) and (orientation: portrait), screen and (max-width: 736px) and (orientation: landscape) {
+} @media screen and (max-width: 414px) and (orientation: portrait), screen and (max-width: 736px) and (orientation: landscape) {
     .cc-window.cc-top {
         top: 0
     } #externalinjectionapp
@@ -881,7 +849,7 @@ html {
 
     .cc-window.cc-banner .cc-message {
         margin-right: 0
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .cc-floating.cc-theme-classic {
@@ -1462,14 +1430,14 @@ button.swiper-pagination-bullet {
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg)
-    } #externalinjectionapp
-} #externalinjectionapp
+    }
+}
 
 @keyframes swiper-preloader-spin {
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg)
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .swiper-container .swiper-notification {
@@ -2665,13 +2633,11 @@ input[type=range]:focus + .rangeslider .rangeslider__handle {
 
 .swiper-pagination-bullet {
     opacity: .75
-} #externalinjectionapp
-
-@media (min-width: 768px) {
+} @media (min-width: 768px) {
     .swiper-pagination-bullet {
         width: 12px;
         height: 12px
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .swiper-button-next, .swiper-button-prev {
@@ -2696,12 +2662,10 @@ input[type=range]:focus + .rangeslider .rangeslider__handle {
 
 .swiper-button-next:hover, .swiper-button-prev:hover {
     opacity: .5
-} #externalinjectionapp
-
-@media (max-width: 767.98px) {
+} @media (max-width: 767.98px) {
     .swiper-button-next, .swiper-button-prev {
         display: none
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .swiper-button-next {
@@ -2727,17 +2691,17 @@ input[type=range]:focus + .rangeslider .rangeslider__handle {
 
 .cc-btn {
     color: #005c7c !important
-} #externalinjectionapp
+}
 
 @keyframes slide-in-top-close {
     0% {
         transform: translateY(-20px);
         opacity: 0
-    } #externalinjectionapp
+    }
     100% {
         transform: translateY(0);
         opacity: 1
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .rangeslider {
@@ -2794,90 +2758,89 @@ input[type=range]:focus + .rangeslider .rangeslider__handle {
     border-style: none;
     width: .75rem;
     height: .75rem
-} #externalinjectionapp
+}
 
 @keyframes slide-in-top {
     0% {
         transform: translateY(-10px);
         opacity: 0
-    } #externalinjectionapp
+    }
     100% {
         transform: translateY(0);
         opacity: 1
-    } #externalinjectionapp
-} #externalinjectionapp
+    }
+}
 
 @keyframes slide-out-top {
     0% {
         transform: translateY(0);
         opacity: 1
-    } #externalinjectionapp
+    }
     100% {
         transform: translateY(-10px);
         opacity: 0
-    } #externalinjectionapp
-} #externalinjectionapp
+    }
+}
 
 @keyframes slide-in-bottom {
     0% {
         transform: translateY(20px);
         opacity: 0
-    } #externalinjectionapp
+    }
     100% {
         transform: translateY(0);
         opacity: 1
-    } #externalinjectionapp
-} #externalinjectionapp
+    }
+}
 
 @keyframes slide-out-bottom {
     0% {
         transform: translateY(0);
         opacity: 1
-    } #externalinjectionapp
+    }
     100% {
         transform: translateY(20px);
         opacity: 0
-    } #externalinjectionapp
-} #externalinjectionapp
-
+    }
+}
 @keyframes flip-in-hor-bottom {
     0% {
         transform: rotateX(80deg);
         opacity: 0
-    } #externalinjectionapp
+    }
     100% {
         transform: rotateX(0);
         opacity: 1
-    } #externalinjectionapp
-} #externalinjectionapp
+    }
+}
 
 @keyframes fade-in {
     0% {
         opacity: 0
-    } #externalinjectionapp
+    }
     100% {
         opacity: 1
-    } #externalinjectionapp
-} #externalinjectionapp
+    }
+}
 
 @keyframes fade-out {
     0% {
         opacity: 1
-    } #externalinjectionapp
+    }
     100% {
         opacity: 0
-    } #externalinjectionapp
-} #externalinjectionapp
+    }
+}
 
 @keyframes scale-in-center {
     0% {
         transform: scale(0);
         opacity: 1
-    } #externalinjectionapp
+    }
     100% {
         transform: scale(1);
         opacity: 1
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .card__title, .h3 {
@@ -2972,12 +2935,10 @@ div p:first-child {
 
 div p:last-child {
     margin-bottom: 0 !important
-} #externalinjectionapp
-
-@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+} @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
     img {
         flex-shrink: 0
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 button svg {
@@ -3154,29 +3115,27 @@ a:not(.btn):active, a:not(.btn):hover {
 
 .c-preloader__spinner i:nth-child(3) {
     animation-delay: 0ms
-} #externalinjectionapp
+}
 
 @keyframes bounce-delay {
     0%, 100% {
         transform: scale(0);
         opacity: 0
-    } #externalinjectionapp
+    }
     50% {
         transform: scale(1);
         opacity: 1
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 header {
     top: 0;
     height: 4rem;
     background-color: #fff
-} #externalinjectionapp
-
-@media (min-width: 1280px) {
+} @media (min-width: 1280px) {
     header {
         height: 6rem
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .nav-menu {
@@ -3185,12 +3144,10 @@ header {
 
 .nav-menu li {
     display: inline-block
-} #externalinjectionapp
-
-@media (min-width: 1280px) {
+} @media (min-width: 1280px) {
     .nav-menu {
         display: block
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .nav-mobile {
@@ -3215,12 +3172,10 @@ header {
 .hamburger {
     transform: scale(.5);
     transform-origin: right
-} #externalinjectionapp
-
-@media (min-width: 1280px) {
+} @media (min-width: 1280px) {
     .hamburger {
         display: none
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .hamburger .line {
@@ -3273,12 +3228,10 @@ header {
 
 .features__list {
     margin-right: 2rem
-} #externalinjectionapp
-
-@media (max-width: 767.98px) {
+} @media (max-width: 767.98px) {
     .features__list {
         margin-right: 0
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .features__list li {
@@ -3289,24 +3242,20 @@ header {
     background-size: cover !important;
     background-position: center center;
     height: 400px
-} #externalinjectionapp
-
-@media (max-width: 767.98px) {
+} @media (max-width: 767.98px) {
     .features__img {
         height: 240px
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .feature-title {
     text-transform: uppercase;
     text-align: right
-} #externalinjectionapp
-
-@media (max-width: 767.98px) {
+} @media (max-width: 767.98px) {
     .feature-title {
         text-align: left;
         padding-left: 3rem
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .hotspot {
@@ -3315,13 +3264,11 @@ header {
     top: 50%;
     transform: translate(0, -50%);
     z-index: 100
-} #externalinjectionapp
-
-@media (max-width: 767.98px) {
+} @media (max-width: 767.98px) {
     .hotspot {
         right: auto;
         left: 0
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .hotspot__marker {
@@ -3380,9 +3327,7 @@ header {
     border-style: solid;
     border-width: 16px 16px 16px 0;
     border-color: transparent #fff transparent transparent
-} #externalinjectionapp
-
-@media (max-width: 1023.98px) {
+} @media (max-width: 1023.98px) {
     .hotspot__popup {
         width: 300px;
         left: 50%;
@@ -3397,9 +3342,7 @@ header {
         transform: translate(-50%, 0) rotate(90deg);
         border-color: transparent transparent transparent #fff
     } #externalinjectionapp
-} #externalinjectionapp
-
-@media (max-width: 767.98px) {
+} @media (max-width: 767.98px) {
     .hotspot__popup {
         width: 300px;
         left: 0;
@@ -3413,7 +3356,7 @@ header {
         border-width: 16px 0 16px 16px;
         transform: translate(-50%, 0) rotate(90deg);
         border-color: transparent transparent transparent #fff
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .hotspot__popup svg {
@@ -3423,18 +3366,18 @@ header {
     display: block;
     margin: 0 auto;
     margin-bottom: 1rem
-} #externalinjectionapp
+}
 
 @keyframes pulseShadow {
     from {
         box-shadow: 0 0 0 .4rem rgba(0, 120, 161, .1)
-    } #externalinjectionapp
+    }
     50% {
         box-shadow: 0 0 0 .1rem rgba(0, 120, 161, .6)
-    } #externalinjectionapp
+    }
     to {
         box-shadow: 0 0 0 .4rem rgba(0, 120, 161, .1)
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .nutshell {
@@ -3445,12 +3388,10 @@ header {
 
 .nutshell .title {
     margin-bottom: 4rem
-} #externalinjectionapp
-
-@media (max-width: 767.98px) {
+} @media (max-width: 767.98px) {
     .nutshell .title {
         margin-bottom: 2rem
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .nutshell .nutshell_item {
@@ -3475,9 +3416,7 @@ header {
 
 .nutshell .nutshell_item:nth-child(4), .nutshell .nutshell_item:nth-child(5), .nutshell .nutshell_item:nth-child(6) {
     border-bottom: 0
-} #externalinjectionapp
-
-@media (max-width: 767.98px) {
+} @media (max-width: 767.98px) {
     .nutshell .nutshell_item:nth-child(2) {
         border-right: 0
     } #externalinjectionapp
@@ -3490,16 +3429,14 @@ header {
         border-right: 0;
         border-bottom: 1px solid rgba(255, 255, 255, .2)
     } #externalinjectionapp
-} #externalinjectionapp
-
-@media (max-width: 639.98px) {
+} @media (max-width: 639.98px) {
     .nutshell .nutshell_item {
         border-right: 0 !important
     } #externalinjectionapp
 
     .nutshell .nutshell_item:nth-child(5) {
         border-bottom: 1px solid rgba(255, 255, 255, .2)
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .nutshell .nutshell_item .title {
@@ -3531,15 +3468,13 @@ html {
     padding-right: 1.5rem;
     padding-top: 4rem;
     padding-bottom: 4rem
-} #externalinjectionapp
-
-@media (max-width: 1023.98px) {
+} @media (max-width: 1023.98px) {
     .section, section {
         padding-left: 1rem;
         padding-right: 1rem;
         padding-top: 2rem;
         padding-bottom: 2rem
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .section-hero {
@@ -3547,12 +3482,10 @@ html {
     width: 100%;
     background-image: url(../img/css/hero-image.jpg);
     background-size: cover
-} #externalinjectionapp
-
-@media (min-width: 768px) {
+} @media (min-width: 768px) {
     .section-hero {
         background-image: url(../img/css/hero-image-large.jpg)
-    } #externalinjectionapp
+    }
 } #externalinjectionapp
 
 .main-box {
