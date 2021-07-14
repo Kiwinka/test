@@ -1150,6 +1150,78 @@
     dataLayer.push(arguments)
   }
 
+  var ajax = new XMLHttpRequest();
+  ajax.open("GET", "assets/img/svg-sprite.svg", true);
+  ajax.send();
+  ajax.onload = function(e) {
+    var div = document.createElement("div");
+    div.innerHTML = ajax.responseText;
+    document.body.insertBefore(div, document.body.childNodes[0]);
+  };
+
+  var ajax2 = new XMLHttpRequest();
+  ajax2.open("GET", "assets/img/icons/icon-arrow--back.svg", true);
+  ajax2.send();
+  ajax2.onload = function(e) {
+    var div = document.createElement("div");
+    div.innerHTML = ajax2.responseText;
+    document.body.insertBefore(div, document.body.childNodes[0]);
+  };
+
+  var ajax3 = new XMLHttpRequest();
+  ajax3.open("GET", "assets/img/icons/icon-external.svg", true);
+  ajax3.send();
+  ajax3.onload = function(e) {
+    var div = document.createElement("div");
+    div.innerHTML = ajax3.responseText;
+    document.body.insertBefore(div, document.body.childNodes[0]);
+  };
+
+  var ajax4 = new XMLHttpRequest();
+  ajax4.open("GET", "assets/img/css/logo.svg", true);
+  ajax4.send();
+  ajax4.onload = function(e) {
+    var div = document.createElement("div");
+    div.innerHTML = ajax4.responseText;
+    document.body.insertBefore(div, document.body.childNodes[0]);
+  };
+
+  var ajax5 = new XMLHttpRequest();
+  ajax5.open("GET", "assets/img/css/marker.svg", true);
+  ajax5.send();
+  ajax5.onload = function(e) {
+    var div = document.createElement("div");
+    div.innerHTML = ajax5.responseText;
+    document.body.insertBefore(div, document.body.childNodes[0]);
+  };
+
+  var ajax6 = new XMLHttpRequest();
+  ajax6.open("GET", "assets/img/css/nav-arrow.svg", true);
+  ajax6.send();
+  ajax6.onload = function(e) {
+    var div = document.createElement("div");
+    div.innerHTML = ajax6.responseText;
+    document.body.insertBefore(div, document.body.childNodes[0]);
+  };
+
+  var ajax7 = new XMLHttpRequest();
+  ajax7.open("GET", "assets/img/css/slider-bg.svg", true);
+  ajax7.send();
+  ajax7.onload = function(e) {
+    var div = document.createElement("div");
+    div.innerHTML = ajax7.responseText;
+    document.body.insertBefore(div, document.body.childNodes[0]);
+  };
+
+  var ajax8 = new XMLHttpRequest();
+  ajax8.open("GET", "assets/img/css/slider-fill.svg", true);
+  ajax8.send();
+  ajax8.onload = function(e) {
+    var div = document.createElement("div");
+    div.innerHTML = ajax8.responseText;
+    document.body.insertBefore(div, document.body.childNodes[0]);
+  };
+
   window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-UA-41667469-10")</script>
 </div>
 </body>
